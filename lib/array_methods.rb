@@ -3,8 +3,8 @@ array.index(value_to_find)
 end
 
 def find_max_value(array)
-puts array.sort
-return array[-1]
+sorted = array.sort
+print array[-1]
 end
 
 def find_min_value(array)
