@@ -8,5 +8,6 @@ p sorted[-1]
 end
 
 def find_min_value(array)
-  # Add your solution here
+  sorted = array.sort
+  p sorted[0]
 end
