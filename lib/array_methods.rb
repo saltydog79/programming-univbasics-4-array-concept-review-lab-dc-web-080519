@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
 sorted = array.sort
-p sorted[-1]
+puts sorted[-1]
 end
 
 def find_min_value(array)
